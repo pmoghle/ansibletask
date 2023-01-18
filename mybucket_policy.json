@@ -10,8 +10,8 @@
             },
             "Action": "s3:*",
             "Resource": [
-                "arn:aws:s3:::ls-bucket",
-                "arn:aws:s3:::ls-bucket/*"
+                "arn:aws:s3:::moonbucket-12",
+                "arn:aws:s3:::moonbucket-12/*"
             ],
             "Condition": {
                 "IpAddress": {
