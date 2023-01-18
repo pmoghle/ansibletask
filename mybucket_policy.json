@@ -10,19 +10,14 @@
             },
             "Action": "s3:*",
             "Resource": [
-                "arn:aws:s3:::mg-bucket",
-                "arn:aws:s3:::mg-bucket/*"
+                "arn:aws:s3:::ls-bucket",
+                "arn:aws:s3:::ls-bucket/*"
             ],
             "Condition": {
                 "IpAddress": {
-                    "aws:SourceIp": "49.205.251.224"
+                    "aws:SourceIp": "103.24.125.18"
                 }
             }
         }
     ]
 }
- public_access:
-         BlockPublicAcls: true
-         IgnorePublicAcls: true
-         BlockPublicPolicy: true
-         RestrictPublicBuckets: true
